@@ -1,0 +1,6 @@
+MY_API_KEY = 'd62c72275945553cf11efad4688b17bc'
+
+from scopus.scopus_api import ScopusAbstract
+
+ab = ScopusAbstract("2-s2.0-84930616647", refresh=True)
+print(ab)
